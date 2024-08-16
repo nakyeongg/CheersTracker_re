@@ -1,0 +1,129 @@
+
+.closed {
+    width: 104px;
+}
+.open {
+    width: 266px;
+}
+.sidebar-container {
+    height: 1080px;
+    background-color: rgba(255, 255, 255, 1);
+    border-right: 1px solid rgba(180, 180, 180, 1);
+    border-radius: 0 10px 10px 0;
+    transition: 0.2s ease-in-out;
+    >div {
+        height: 82px;
+        display: flex;
+        align-items: center;
+    }
+
+    .logout-container {
+        background-color: rgba(241, 241, 241, 1);
+        padding: 0 37px 0 37px;
+        justify-content: space-between;
+        >div {
+            display: flex;
+            flex-direction: column;
+            gap: 8.79px;
+        }
+        .nickname {
+
+        }
+        .email {
+            color: rgba(117, 117, 117, 1);
+
+        }
+    }
+    .menu {
+        width: 18.18px;
+        height: 18.18px;
+        margin: 0 0 0 41.17px;
+        cursor: pointer;
+    }
+    .logout {
+        height: 28px;
+        width: 28px;
+
+    }
+    .calander {
+        width: 30.89px;
+        height: 34.32px;
+        margin-left: 44.43px;        
+        margin-right: 22.89px;
+    }
+    .drink {
+        width: 28.6px;
+        height: 36.67px;
+        margin-left: 45.58px;
+        margin-right: 24.03px;
+        
+    }
+    .nodrink {
+        width: 26.04px;
+        height: 33.18px;
+        margin-left: 47.86px;
+        margin-right: 24.31px;
+    }
+    .chart {
+        width: 34.32px;
+        height: 34.32px;
+        margin-left: 43.29px;
+        margin-right: 20.6px;
+    }
+    .community {
+        width: 40.05px;
+        height: 26.74px;
+        margin-left: 41px;
+        margin-right: 17.16px;
+    }
+    .mypage {
+        width: 30px;
+        height: 30px;
+        margin-left: 45px;
+        margin-right: 23.21px;
+    }
+    .menu-closed {
+        margin-right: 39.17px;
+    }
+    .logout-closed {
+        margin-left: 34px;
+    }
+
+    .calander-closed {
+        margin-left: 38px;
+    }
+    .drink-closed {
+        margin-left: 40px;
+    }
+    
+    .nodrink-closed {
+        margin-left: 41px;
+    }
+    
+    .chart-closed {
+        margin-left: 37px;
+    }
+    .community-closed {
+        margin-left: 35px;
+    }
+    .mypage-closed {
+        margin-left: 35px;
+    }
+    .logout-container-closed {
+        background-color: rgba(255, 255, 255, 1);
+        padding: 0;
+        display: inline-flex;
+    }
+
+}
+.big-logo {
+    width: 266px;
+    height: 65px;
+    margin: 244px auto 0 auto;
+}
+.mini-logo {
+    width: 100%;
+    height: 50px;
+    margin: 244px auto 0 auto;
+
+}

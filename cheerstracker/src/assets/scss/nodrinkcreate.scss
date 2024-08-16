@@ -1,0 +1,201 @@
+.nodrink-big-container {
+    margin: 0 85px;
+    width: 100%;
+}
+.nodrink-create-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    >div {
+        display: flex;
+
+        h1 {
+            font-size: 48.99px;
+            font-weight: 600;
+            margin-right: 25px;
+            margin-top: 81px;
+        }
+        h2 {
+            font-size: 27.26px;
+            margin-top: 101.52px;
+        }
+    }
+
+    button {
+        width: 249px;
+        height: 63px;
+        font-size: 22.67px;
+        font-weight: 700;
+        border-radius: 16px;
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(121, 154, 234, 1);
+        margin-top: 104px;
+        box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.25);
+
+    }
+    .drink-options-big-container {
+        justify-content: space-between;
+        gap: 0px;   
+    }
+}
+.nodrink-create-main-container {
+    margin-top: 27px;
+    width: 1642px;
+    height: 790px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.1), 2px 2px 6px 0px rgba(0, 0, 0, 0.1), 0px 16px 24px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 19px;
+    // padding: 0 51px;
+}
+.nodrink-create-goal {
+    // padding-top: 28px;
+    padding: 28px 51px 0 51px;
+
+    .nodrink-create-goal-top {
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+
+        h3 {
+            font-size: 31.12px;
+            font-weight: 600;
+        }
+
+        h4 {
+            font-size: 18.51px;
+        }
+    }
+
+    .nodrink-create-goal-main {
+        display: flex;
+        align-items: center;
+        margin-top: 18px;
+        gap: 22px;
+        margin-bottom: 24px;
+
+        >p {
+            color: rgba(116, 116, 116, 1);
+            font-size: 27.66px;
+
+        }
+
+        >div {
+            border: 0.3px solid rgba(154, 154, 154, 1);
+            box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+            border-radius: 20.96px;
+            width: 369px;
+            height: 71px;
+            font-size: 24.81px;
+            display: flex;
+            align-items: center;
+            padding: 0 29px;
+            justify-content: space-between;
+
+            img {
+                width: 36px;
+                height: 36px;
+            }
+        }
+    }
+}
+.line-container {
+    border: 0.3px solid rgba(154, 154, 154, 1);
+    margin: 0 51px;
+}
+.nodrink-create-cost {
+    display: flex;
+    align-items: center;
+    margin: 24px 51px 25px 51px;
+
+    >div {
+        display: flex;
+        align-items: baseline;
+    }
+    h2 {
+        font-weight: 600;
+        font-size: 31.12px;        
+    }
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    input {
+        border: 0.3px solid rgba(154, 154, 154, 1);
+        box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+        border-radius: 20.96px;
+        width: 369px;
+        height: 71px;
+        position: relative;
+        margin-left: 39px;
+        font-size: 24.81px;
+        padding: 0 70px 0 90px;
+        
+        &::placeholder {
+            font-size: 24.81px;
+            color: rgba(107, 107, 107, 1);
+        }
+    }
+    p {
+        position: absolute;
+        font-size: 31.36px;
+        left: 960px;
+    }
+}
+
+.nodrink-create-amount {
+    margin: 27px 0 0 0;
+
+    .nodrink-create-amount-top {
+        display: flex;
+        align-items: baseline;
+        margin: 0 51px;
+        
+
+        h2 {
+            font-size: 31.12px;
+            font-weight: 600;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+}
+.nodrink-options {
+    padding: 27.12px 51px 47.88px 51px;
+
+    .nodrink-alcohol-quantity {
+        margin-top: 14.88px !important;
+
+        .drink-description {
+            font-size: 20px;
+        }
+    }
+    .drink-options-group {
+        // width: 33%;
+    }
+}
+.nodrink-goal-container {
+    margin: 0 51px;
+    h2 {
+        padding: 26px 0 12px 0;
+        font-size: 31.12px;
+        font-weight: 600;
+    }
+    input {
+        border: 0.7px solid rgba(166, 166, 166, 1);
+        border-radius: 5px;
+        width: 100%;
+        height: 80px;
+        font-size: 27.66px;
+        padding: 19px;
+
+        &::placeholder {
+            font-size: 27.66px;
+            color: rgba(99, 99, 99, 1);
+            font-weight: 300;
+        }
+    }
+}

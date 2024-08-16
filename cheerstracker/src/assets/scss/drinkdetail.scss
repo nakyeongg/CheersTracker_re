@@ -1,0 +1,108 @@
+.drink-detail-container {
+    margin: 0 85px;
+    width: 100%;
+}
+.detail-time-container {
+    width: 262px !important;
+    
+    .drink-detail-time {
+        width: 262px;
+        font-size: 24.81px !important;
+        padding: 10px;
+
+        >p:nth-child(2) {
+            font-weight: 400;
+        }
+}
+}
+.drink-create-top-box {
+    img {
+        filter: grayscale(1);
+
+        &:hover {
+            filter: grayscale(1);
+            cursor: default;
+        }
+    }
+    .drink-clicked {
+        filter: grayscale(0);
+        font-weight: 600;
+
+        &:hover {
+            filter: grayscale(0);
+            cursor: default;
+        }
+    }
+}
+.drink-detail-type-container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 51px;
+    grid-gap: 0 51px;
+
+    .drink-detail-type {
+        color: rgba(180, 180, 180, 1);
+        display: flex;
+        align-items: center;
+        margin: 22px 0;
+
+        img {
+            width: 80px;
+            height: 80px;
+            filter: grayscale(1);
+        }
+        h2 {
+            font-size: 45.76px;
+            margin-left: 33px;
+            font-weight: 600;
+            width: 138px;
+            position: relative;
+
+            >p {
+                font-size: 15.58px;
+                position: absolute;
+                font-weight: 400;
+                width: 270px;
+                bottom: -20px;
+            }
+        }
+        h3 {
+            font-size: 45.76px;
+            margin-left: 74px;
+        }
+        h4 {
+            font-size: 25.74px;
+        }
+        div {
+            display: flex;
+            align-items: baseline;
+        }
+    }
+
+    .drink-type-bottom {
+        margin-bottom: 53px;
+    }
+}
+.clicked-drink-type {
+    color: black !important;
+
+    img {
+        filter: grayscale(0) !important;
+    }
+}
+.container-line2 {
+    width: calc(100% - 102px);
+    margin: 0 51px;
+    border: 0.5px solid rgba(180, 180, 180, 1)
+
+}
+.memo-container2 {
+    font-size: 31.12px;
+    margin: 30px 51px 30px 62px;
+
+    p {
+        margin-top: 28px;
+        padding-bottom: 68px;
+    }
+}

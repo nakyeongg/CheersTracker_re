@@ -1,0 +1,86 @@
+.mypage-container {
+    margin: 0 85px;
+    width: 100%;
+    
+    h1 {
+        margin-top: 81px;
+        font-size: 48.99px;
+        font-weight: 600;
+    }
+}
+.mypage-account {
+    margin-top: 39px;
+
+    h2 {
+        font-weight: 600;
+        font-size: 38.01px;
+    }
+    >div {
+        margin-top: 34px;
+        display: flex;
+
+        h3 {
+            font-size: 33.79px;
+            width: 136px;
+            font-weight: 300;
+        }
+        h4 {
+            color: rgba(121, 154, 234, 1);
+            font-size: 33.79px;
+            font-weight: 600;
+            margin-left: 29.5px;
+        }
+    }
+
+    button {
+        box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+        border: 0.3px solid rgba(154, 154, 154, 1);
+        background-color: rgba(255, 255, 255, 1);
+        font-size: 24.81px;
+        height: 64.79px;
+        width: 195px;
+        border-radius: 15px;
+        margin-top: 14px;
+        margin-left: 165.5px;
+        margin-bottom: 42.21px;
+    }
+}
+.line-container3 {
+    border: 0.7px solid rgba(185, 185, 185, 1);
+    width: 100%;
+}
+.mypage-collect {
+    margin-top: 47px;
+
+    h2 {
+        font-size: 38.01px;
+        font-weight: 600;
+    
+    }
+
+    div {
+        display: flex;
+        margin-top: 35.49px;
+    }
+
+    img {
+        width: 45.5px;
+        height: 45.5px;
+        margin-right: 20.93px;
+    }
+    h3 {
+        font-size: 34.59px;
+        font-weight: 300;
+
+    }
+    >div:nth-child(1) {
+        margin-top: 47px;
+    }
+}
+
+.account-delete {
+    color: rgba(117, 117, 117, 1);
+    font-size: 16px;
+    margin-top: 181.51px;
+    text-decoration: underline;
+}
